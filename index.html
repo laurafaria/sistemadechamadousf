@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecRapUsf</title>
+
+    <div class="container">
+    <h1>Sistema de chamado de técnicos</h1>
+    <div class="jumbotron">
+    <form class="form-horizontal">
+        <fieldset>
+          <div class="form-group">
+            <label for="select" class="col-lg-4 control-label">Qual o campus?</label>
+            <div class="col-lg-4">
+              <select class="form-control" id="select">
+                <option>Itatiba</option>
+                <option>Bragança pta</option>
+                <option>Campinas</option>
+              </select>
+            </div>
+          </div>
+          <br>
+          <label for="select" class="col-lg-4 control-label">Qual o prédio?</label>
+            <div class="col-lg-4">
+              <select class="form-control">
+                <option>Predio 1</option>
+                <option>Predio 2</option>
+                <option>Predio 3</option>
+              </select>
+            </div>
+            <br>
+            <br>
+         
+          <br>
+          <div class="form-group">
+            <label for="inputSala" class="col-lg-4 control-label">Qual é a sala?</label>
+            <div class="col-lg-4">
+              <input type="text" class="form-control" id="inputSala" placeholder="Sala">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-4 control-label">Necessita de equipamentos?</label>
+            <div class="col-lg-4">
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                  Sim
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                  Não
+                </label>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="textArea" class="col-lg-4 control-label">Descreva abaixo o seu problema:</label>
+            <div class="col-lg-4">
+              <textarea class="form-control" rows="3" id="textArea"></textarea>
+              <span class="help-block">Digite detalhadamente o que precisa.</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-lg-4 col-lg-offset-4">
+              <button type="reset" class="btn btn-default">Cancelar</button>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </div>
+        </fieldset>
+
+    </div>
+
+</div>
+</head>
+<body>
+    
+</body>
+</html>
